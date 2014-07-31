@@ -4,12 +4,6 @@
 	<title></title>
 </head>
 <body>
-
-</body>
-</html>
-<html>
-<head></head>
-<body>
 <?php
 	$logname = $_REQUEST["login"];
 	if ($logname== "Ali")
