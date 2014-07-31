@@ -11,7 +11,13 @@ $(document).ready(function(){
 			login:{required:true},
 			password:{required:true,rangelength:[6,8]},
 			confirm_password:{equalTo:'#password'},
-			birth_contact:{validDate:true}
+			birth_contact:{validDate:true},
+			keyword:{reuired:true},
+			address1:{required:true},
+			city:{required:true},
+			province:{required:true},
+			postalcode:{required:true},
+			country:{required:true}
 		},//end of rules
 		messages: {
 			names:{
